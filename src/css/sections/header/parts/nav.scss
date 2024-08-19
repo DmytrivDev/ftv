@@ -7,11 +7,7 @@
       align-items: center;
       gap: 4rem;
     }
-    &__item {
-    }
     &__link {
-      position: relative;
-      display: block;
       color: #0c0d0e;
       font-size: 1rem;
       line-height: 1.5;
@@ -116,8 +112,6 @@
       flex-direction: column;
       gap: 4rem;
       margin-bottom: 4rem;
-    }
-    &__item {
     }
     &__link {
       display: block;

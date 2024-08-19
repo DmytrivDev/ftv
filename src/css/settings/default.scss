@@ -56,6 +56,12 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 input {
   outline: none;
   border: none;
@@ -85,6 +91,10 @@ b,
 strong {
   font-family: var(--ff);
   font-weight: 600;
+}
+
+address {
+  font-style: normal;
 }
 
 .main {
