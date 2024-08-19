@@ -10,6 +10,8 @@
 
 /* Header */
 @import url('./sections/header/header.scss');
+@import url('./sections/header/parts/mob.scss');
+@import url('./sections/header/parts/nav.scss');
 
 /* About */
 @import url('./sections/about/about.scss');
