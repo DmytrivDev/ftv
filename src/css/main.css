@@ -6,12 +6,20 @@
 @import url('./settings/index.scss');
 
 /* General */
-@import url('./sections/general/general.scss');
+@import url('./sections/general/faq.scss');
+@import url('./sections/general/product.scss');
+@import url('./sections/general/quote.scss');
 
 /* Header */
 @import url('./sections/header/header.scss');
 @import url('./sections/header/parts/mob.scss');
 @import url('./sections/header/parts/nav.scss');
+
+/* Home */
+@import url('./sections/home/wholesaler.scss');
+@import url('./sections/home/services.scss');
+@import url('./sections/home/industries.scss');
+@import url('./sections/home/range.scss');
 
 /* About */
 @import url('./sections/about/about.scss');
