@@ -23,7 +23,7 @@
 @import url('./sections/home/groups.scss');
 
 /* About */
-@import url('./sections/about/about.scss');
+@import url('./sections/about/industry.scss');
 
 /* Catalog */
 @import url('./sections/catalog/catalog.scss');
