@@ -20,6 +20,7 @@
 @import url('./sections/home/services.scss');
 @import url('./sections/home/industries.scss');
 @import url('./sections/home/range.scss');
+@import url('./sections/home/groups.scss');
 
 /* About */
 @import url('./sections/about/about.scss');
