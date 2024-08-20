@@ -62,6 +62,55 @@
   line-height: 1.5;
 }
 
+.btn-def {
+  display: block;
+  width: fit-content;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 0.063rem solid #0c0d0e;
+  color: #0c0d0e;
+  background-color: transparent;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.71;
+  transition: all 150ms ease-in;
+  &:hover,
+  &:focus {
+    background-color: #0c0d0e;
+    color: #fff;
+  }
+}
+
+.btn-more {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  color: #191919;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: underline;
+  transition: all 150ms ease-in;
+  &:hover,
+  &:focus {
+    opacity: 0.6;
+  }
+  &::after {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M14 18L12.6 16.55L16.15 13H4V11H16.15L12.6 7.45L14 6L20 12L14 18Z' fill='%23191919'/%3E%3C/svg%3E");
+  }
+}
+
 .card {
   position: relative;
   border-radius: 1.5rem;
@@ -115,52 +164,78 @@
   }
 }
 
-.btn-def {
-  display: block;
-  width: fit-content;
-  text-align: center;
-  padding: 0.75rem 1rem;
-  border-radius: 0.5rem;
-  border: 0.063rem solid #0c0d0e;
-  background-color: transparent;
-  color: #0c0d0e;
-  font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 1.71;
-  transition: all 150ms ease-in;
-  &:hover,
-  &:focus {
-    background-color: #0c0d0e;
-    color: #fff;
-  }
-}
+.possibil {
+  padding: 8rem 0 4rem 0;
 
-.btn-more {
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  gap: 0.375rem;
-  color: #191919;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.5;
-  text-decoration: underline;
-  transition: all 150ms ease-in;
-  &:hover,
-  &:focus {
-    opacity: 0.6;
+  &__body {
+    position: relative;
+    border-radius: 1.5rem;
+    background-color: #191919;
+    overflow: hidden;
+    height: 20rem;
   }
-  &::after {
-    content: "";
+  &__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: transparent;
+  }
+  &__title {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+  &__btn {
+    border: 0.063rem solid #fff;
+    color: #fff;
+    &:hover,
+    &:focus {
+      background-color: #fff;
+      color: #0c0d0e;
+    }
+  }
+  &__img-wrapp {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 48.4rem;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1.5rem;
-    height: 1.5rem;
-    background-repeat: no-repeat;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/content/bg-desc.png");
     background-position: center;
-    background-size: contain;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M14 18L12.6 16.55L16.15 13H4V11H16.15L12.6 7.45L14 6L20 12L14 18Z' fill='%23191919'/%3E%3C/svg%3E");
+    background-size: cover;
+  }
+  &__gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48.4rem;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(25, 25, 25, 0) 0%, #191919 100%);
   }
 }
 
@@ -196,6 +271,36 @@
       height: 21.25rem;
       width: 100%;
       border-radius: 1.5rem;
+    }
+  }
+
+  .possibil {
+    padding: 5rem 0 2.5rem 0;
+
+    &__body {
+      height: 42.9rem;
+    }
+    &__content {
+      padding: 2.5rem 2rem;
+      gap: 3rem;
+      justify-content: start;
+    }
+    &__title {
+      font-size: 2rem;
+      line-height: 1.25;
+    }
+    &__img-wrapp {
+      top: auto;
+      bottom: 0;
+      width: 100%;
+      height: 20.4375rem;
+    }
+    &__gradient {
+      top: auto;
+      bottom: 0;
+      width: 100%;
+      height: 20.4375rem;
+      background: linear-gradient(0deg, rgba(25, 25, 25, 0) 0%, #191919 100%);
     }
   }
 }
