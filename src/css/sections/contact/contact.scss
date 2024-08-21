@@ -10,6 +10,7 @@
     margin-bottom: 1.5rem;
   }
   &__title {
+    text-align: center;
     margin-bottom: 2rem;
   }
   &__text {
@@ -61,7 +62,4 @@
       gap: 2rem;
     }
   }
-}
-
-@media screen and (max-width: 600px) {
 }
