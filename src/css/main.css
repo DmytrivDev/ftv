@@ -4,6 +4,7 @@
 @import url('./settings/default.scss');
 @import url('./settings/general.scss');
 @import url('./settings/index.scss');
+@import url('./settings/embeded.scss');
 
 /* General */
 @import url('./sections/general/faq.scss');
@@ -23,6 +24,7 @@
 @import url('./sections/home/groups.scss');
 
 /* About */
+@import url('./sections/about/partner.scss');
 @import url('./sections/about/industry.scss');
 
 /* Catalog */

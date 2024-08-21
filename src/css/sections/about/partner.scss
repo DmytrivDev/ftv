@@ -1,0 +1,36 @@
+.partner {
+  padding-bottom: 4rem;
+
+  &__body {
+    padding: 3rem 0;
+
+    background-image: url("/img/content/bg-desc.png");
+    background-position: top;
+    background-size: cover;
+  }
+  &__sub-title {
+    margin-bottom: 1.5rem;
+  }
+  &__title {
+    max-width: 44.625rem;
+    margin-bottom: 1rem;
+  }
+  &__bg {
+    height: 23.875rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .partner {
+    padding-bottom: 2.5rem;
+  }
+}

@@ -1,5 +1,5 @@
 .industry {
-  padding: 8rem 0;
+  padding: 4rem 0 8rem 0;
 
   &__box {
     width: 38.75rem;
@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 960px) {
   .industry {
-    padding: 5rem 0;
+    padding: 2.5rem 0 5rem 0;
 
     &__box {
       width: 100%;
