@@ -29,6 +29,7 @@
 @import url('./sections/catalog/catalog.scss');
 
 /* Services */
+@import url('./sections/services/services.scss');
 @import url('./sections/services/comprehen.scss');
 
 /* Contact */
