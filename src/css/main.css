@@ -26,6 +26,7 @@
 /* About */
 @import url('./sections/about/partner.scss');
 @import url('./sections/about/industry.scss');
+@import url('./sections/about/industries.scss');
 
 /* Catalog */
 @import url('./sections/catalog/catalog.scss');
@@ -48,3 +49,6 @@
 
 /* Footer */
 @import url('./sections/footer/footer.scss');
+
+/* Modals */
+@import url('./sections/modals/modals.scss');

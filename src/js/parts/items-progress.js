@@ -7,10 +7,16 @@ function handleStepChange(event) {
   const targetStep = document.getElementById(dataId);
   const currentStep = document.querySelector('.choose-card');
 
+  const servicesSec = button.closest('.servicesProgress');
+  const industriesSec = button.closest('.industriesProgress');
+
   if (currentStep && targetStep) {
     currentStep.classList.remove('choose-card');
 
-    document.querySelectorAll('.services__btn').forEach(btn => {
+    servicesSec?.querySelectorAll('.services__btn').forEach(btn => {
+      btn.classList.remove('choose-btn');
+    });
+    industriesSec?.querySelectorAll('.industries__btn').forEach(btn => {
       btn.classList.remove('choose-btn');
     });
 
@@ -24,6 +30,8 @@ function handleStepChange(event) {
   }
 }
 
-document.querySelectorAll('.services__btn').forEach(button => {
-  button.addEventListener('click', handleStepChange);
-});
+document
+  .querySelectorAll('.services__btn, .industries__btn')
+  .forEach(button => {
+    button.addEventListener('click', handleStepChange);
+  });
