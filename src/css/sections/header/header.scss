@@ -24,6 +24,17 @@
   }
 }
 
+.custom-logo-link {
+  display: block;
+  width: 6.8125rem;
+  margin-right: auto;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .burger-menu {
   display: none;
 }
@@ -39,6 +50,9 @@
     &__nav {
       display: none;
     }
+  }
+  .custom-logo-link {
+    width: 5.125rem;
   }
 
   .burger-menu {

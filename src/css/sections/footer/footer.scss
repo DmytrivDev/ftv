@@ -26,6 +26,13 @@
       height: auto;
     }
   }
+  .custom-logo-link {
+    width: 6.8125rem;
+    margin-bottom: 2.5rem;
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
   &__address {
     display: flex;
     flex-direction: column;
@@ -143,6 +150,10 @@
       padding-left: 0;
     }
     &__logo {
+      width: 10.25006rem;
+      margin-bottom: 4rem;
+    }
+    .custom-logo-link {
       width: 10.25006rem;
       margin-bottom: 4rem;
     }
