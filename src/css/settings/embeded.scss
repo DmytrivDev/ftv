@@ -145,34 +145,26 @@
 
 @media screen and (max-width: 960px) {
   .embeded {
-    font-size: 0.875em;
-    line-height: 1.4875em;
-
+    h1,
+    h2 {
+      font-size: 1.95em;
+      line-height: 1.343em;
+      margin-top: 1.629em;
+      margin-bottom: 1.057em;
+    }
     h3 {
-      font-size: 1.125em;
-      margin-top: 1.667em;
-      margin-bottom: 0.556em;
+      font-size: 1.75em;
+      line-height: 1.143em;
+      margin-top: 1.429em;
+      margin-bottom: 0.857em;
     }
     h4,
     h5,
     h6 {
-      margin-top: 1.875em;
-      margin-bottom: 0.625em;
+      font-size: 1.55em;
+      line-height: 0.943em;
+      margin-top: 1.229em;
+      margin-bottom: 0.657em;
     }
-
-    ul {
-      li {
-        margin-bottom: 0.625em;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 680px) {
-  .embeded {
-  }
-}
-@media screen and (max-width: 500px) {
-  .embeded {
   }
 }

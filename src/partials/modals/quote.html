@@ -1,11 +1,11 @@
-<div class="modal">
+<div class="modal show-quote">
   <div class="modal__body quoteModal">
     <button type="button" class="quoteModal__close">
       <img src="./img/icons/close.svg" alt="" />
     </button>
 
-    <h3 class="quoteModal__title title3">REQUEST A QUOTE</h3>
-    <p class="quoteModal__text text-def">
+    <h3 class="title3">REQUEST A QUOTE</h3>
+    <p class="text-def">
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
       dolore
     </p>
@@ -18,7 +18,7 @@
             class="quote__input"
             type="text"
             name="quoteName"
-            placeholder="Type here"
+            placeholder="Name"
           />
         </label>
 
@@ -38,12 +38,12 @@
             class="quote__input"
             type="text"
             name="quoteNumber"
-            placeholder="example@gmail.com"
+            placeholder="Phone number"
           />
         </label>
 
         <label class="quote__label">
-          <p>Phone number</p>
+          <p>Message</p>
           <textarea
             class="quote__textarea"
             name="quoteTextarea"
@@ -52,7 +52,9 @@
         </label>
       </div>
 
-      <button type="submit" class="quote__sbm">Send</button>
+      <div class="quoteModal__btn-wrapp">
+        <button type="submit" class="quote__sbm">Send</button>
+      </div>
     </form>
   </div>
 </div>
