@@ -1,4 +1,6 @@
-.aboutPage {
+.industriesProgress {
+  padding: 8rem 0 4rem 0;
+
   .industries {
     &__body {
     }
@@ -57,7 +59,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .aboutPage {
+  .industriesProgress {
     .industries {
       &__card {
         transform: translateY(-1.25rem) translateX(0);
