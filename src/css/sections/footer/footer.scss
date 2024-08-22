@@ -80,7 +80,7 @@
   &__list-mob {
     display: none;
   }
-  &__link {
+  &__link, a {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
@@ -126,10 +126,10 @@
     justify-content: space-between;
   }
   &__policy {
-    opacity: 0.64;
-    color: #fff;
-    font-size: 0.875rem;
-    line-height: 1.71;
+    opacity: 0.64 !important;
+    color: #fff !important;
+    font-size: 0.875rem !important;
+    line-height: 1.71 !important;
   }
 }
 
