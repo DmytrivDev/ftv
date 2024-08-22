@@ -6,3 +6,29 @@ scrollToTopBtn?.addEventListener('click', () => {
     behavior: 'smooth',
   });
 });
+
+
+const ankors = document.querySelectorAll('a.ankor');
+
+ankors?.forEach(el => {
+
+  el?.addEventListener('click', (event) => {
+    event.preventDefault();
+
+    const targetId = event.target.dataset.ankor;
+
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+
+      console.log(targetPosition)
+
+      window.scrollTo({
+        top: targetPosition,
+        behavior: 'smooth',
+      });
+    }
+  });
+});
+
