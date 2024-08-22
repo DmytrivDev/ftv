@@ -4,7 +4,7 @@ import '@splidejs/splide/css';
 let splideInstance;
 
 const instSecondSlider = () => {
-  const slider = document.querySelector('.process .splide');
+  const slider = document.querySelector('.splide');
 
   if (slider && !splideInstance) {
     const options = {
