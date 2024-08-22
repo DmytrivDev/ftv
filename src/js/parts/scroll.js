@@ -22,8 +22,6 @@ ankors?.forEach(el => {
     if (targetElement) {
       const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
 
-      console.log(targetPosition)
-
       window.scrollTo({
         top: targetPosition,
         behavior: 'smooth',
