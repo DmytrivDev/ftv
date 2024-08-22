@@ -362,6 +362,10 @@
   }
 }
 
+.solutionAbout {
+  padding: 4rem 0;
+}
+
 @media screen and (max-width: 960px) {
   .title1 {
     font-size: 3rem;
@@ -475,6 +479,10 @@
         transform: none !important;
       }
     }
+  }
+
+  .solutionAbout {
+    padding: 2.5rem 0;
   }
 }
 
