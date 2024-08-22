@@ -1,7 +1,7 @@
 .servicesProgress {
-  .services {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 
+  .services {
     &__content {
       display: flex;
       flex-direction: column;
@@ -80,9 +80,9 @@
 
 @media screen and (max-width: 960px) {
   .servicesProgress {
-    .services {
-      padding-bottom: 5rem;
+    padding-bottom: 5rem;
 
+    .services {
       &__text {
         max-width: 100%;
       }

@@ -1,13 +1,52 @@
 .error {
   &__body {
-  }
-  &__title {
-  }
-  &__text {
+    padding: 10rem 0 16.875rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url("/img/content/bg-desc.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .title1 {
+      span {
+        color: #ec5b2a;
+      }
+      margin-bottom: 1rem;
+    }
+    .text-def {
+      text-align: center;
+      width: 27.5rem;
+      margin-bottom: 4rem;
+    }
+    .btn-def {
+      background-color: #fff;
+      &:hover {
+        background-color: #0c0d0e;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 960px) {
   .error {
+    &__body {
+      padding: 5rem 0 17.5rem 0;
+
+      background-image: url("/img/content/bg-mob.png");
+
+      .title1 {
+        margin-bottom: 2rem;
+      }
+      .text-def {
+        width: 100%;
+        margin-bottom: 3rem;
+      }
+      .btn-def {
+        width: 100%;
+      }
+    }
   }
 }

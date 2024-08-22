@@ -3,18 +3,17 @@
 
   &__body {
     padding: 3rem 0;
-    margin-top: 20px;
 
     background-image: url("/img/content/bg-desc.png");
     background-position: top;
     background-size: cover;
+    background-repeat: no-repeat;
   }
-  &__sub-title {
+  .sub-title {
     margin-bottom: 1.5rem;
   }
-  &__title {
+  .title1 {
     max-width: 44.625rem;
-    margin-bottom: 1rem;
   }
   &__bg {
     height: 23.875rem;
@@ -33,5 +32,19 @@
 @media screen and (max-width: 960px) {
   .partner {
     padding-bottom: 2.5rem;
+
+    &__body {
+      padding: 1.5rem 0 4rem 0;
+      background: none;
+    }
+    .title1 {
+      max-width: 100%;
+    }
+    &__bg {
+      height: 23.875rem;
+      img {
+        object-fit: cover;
+      }
+    }
   }
 }

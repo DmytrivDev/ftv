@@ -10,6 +10,7 @@
     background-image: url("/img/content/bg-desc.png");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
   &__content {
     padding-top: 2.75rem;
@@ -77,6 +78,14 @@
     &__img-wrapp {
       width: 100%;
       height: 21.25rem;
+    }
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .comprehen {
+    &__title {
+      font-size: 2.375rem;
     }
   }
 }
