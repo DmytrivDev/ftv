@@ -1,10 +1,10 @@
 .embeded {
   font-size: 1em;
-  line-height: 1.7em;
+  line-height: 1.5em;
   color: #191919;
 
   & > * {
-    margin-top: 0.5em;
+    margin-top: 1.5em;
 
     &:first-child {
       margin-top: 0;
@@ -29,43 +29,37 @@
   h4,
   h5,
   h6 {
-    font-weight: 400;
+    font-weight: 600;
   }
 
   h1 {
-    font-size: 1.778em;
-    margin-top: 1.563em;
-    margin-bottom: 0.938em;
+    font-size: 2.4em;
+    line-height: 1.775em;
+    margin-top: 2.4em;
+    margin-bottom: 1.15em;
   }
 
   h2 {
-    font-size: 1.556em;
-    margin-top: 1.786em;
-    margin-bottom: 1.071em;
+    font-size: 2.2em;
+    line-height: 1.575em;
+    margin-top: 2.2em;
+    margin-bottom: 0.95em;
   }
 
   h3 {
-    font-size: 1.333em;
-    margin-top: 2.083em;
+    font-size: 2em;
+    line-height: 1.375em;
+    margin-top: 2em;
     margin-bottom: 0.75em;
   }
 
-  h4 {
-    font-size: 1em;
-    margin-top: 2.3em;
-    margin-bottom: 1em;
-  }
-
-  h5 {
-    font-size: 0.875em;
-    margin-top: 2.5em;
-    margin-bottom: 1.5em;
-  }
-
+  h4,
+  h5,
   h6 {
-    font-size: 0.675em;
-    margin-top: 2.632em;
-    margin-bottom: 1.579em;
+    font-size: 1.8em;
+    line-height: 1.175em;
+    margin-top: 1.8em;
+    margin-bottom: 0.55em;
   }
 
   ul {

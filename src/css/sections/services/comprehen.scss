@@ -81,3 +81,11 @@
     }
   }
 }
+
+@media screen and (max-width: 470px) {
+  .comprehen {
+    &__title {
+      font-size: 2.375rem;
+    }
+  }
+}
