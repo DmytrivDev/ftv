@@ -48,6 +48,7 @@
     margin-bottom: 0.25rem;
   }
   &__address-link {
+    width: fit-content;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -80,7 +81,8 @@
   &__list-mob {
     display: none;
   }
-  &__link, a {
+  &__link,
+  a {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
