@@ -8,7 +8,7 @@
         </div>
         <h2 class="quote__title title2">rEQUEST A QUOTE</h2>
 
-        <form class="quote__form">
+        <form class="quote__form submitForm">
           <div class="quote__box">
             <label class="quote__label">
               <p>Name</p>
@@ -17,6 +17,7 @@
                 type="text"
                 name="quoteName"
                 placeholder="Name"
+                data-required="true" 
               />
             </label>
 
@@ -24,9 +25,10 @@
               <p>Email</p>
               <input
                 class="quote__input"
-                type="text"
+                type="email"
                 name="quoteEmail"
                 placeholder="example@gmail.com"
+                data-required="true" 
               />
             </label>
 
@@ -34,9 +36,10 @@
               <p>Phone number</p>
               <input
                 class="quote__input"
-                type="text"
+                type="tel"
                 name="quoteNumber"
                 placeholder="Phone number"
+                data-required="true" 
               />
             </label>
 

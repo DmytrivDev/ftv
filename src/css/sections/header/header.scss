@@ -1,5 +1,14 @@
 .header {
   position: relative;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  transform: translateY(0);
+  transition: .3s;
+  &.fixed {
+    transform: translateY(-100%);
+  }
   &__top {
     background-color: #fff;
     padding: 1.25rem 0;

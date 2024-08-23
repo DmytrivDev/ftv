@@ -1,6 +1,6 @@
 const burger = document.querySelector('.burger-menu');
 const mobMenu = document.querySelector('.mob-menu');
-const navBtns = document.querySelectorAll('.nav-menu__btn');
+const navBtns = document.querySelectorAll('.nav-menu__btn_mob');
 const navLinks = document.querySelectorAll('.nav-menu__link');
 const body = document.querySelector('body');
 

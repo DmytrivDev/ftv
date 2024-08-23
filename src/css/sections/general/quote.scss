@@ -27,6 +27,20 @@
     flex-direction: column;
     gap: 0.5rem;
     width: 100%;
+    &.error {
+      span {
+        display: block;
+      }
+      input {
+        border-color: #FF3434 !important;
+      }
+    }
+    span {
+      font-size: 0.875rem;
+      color: #FF3434;
+      line-height: 1.125rem;
+      display: none;
+    }
     p {
       color: #191919;
       font-size: 0.875rem;

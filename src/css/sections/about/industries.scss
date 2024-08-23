@@ -33,7 +33,7 @@
         color: #ec5b2a;
         margin-bottom: 1.5rem;
       }
-      .text-def {
+      .text-def, p, ul {
         margin-bottom: 4.5rem;
       }
       &.choose-card {
@@ -43,6 +43,27 @@
         opacity: 1;
         visibility: visible;
         transform: translateX(0);
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        li {
+          font-size: 1.125rem;
+          line-height: 1.77778;
+          color: rgba(25, 25, 25, 0.64);
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          &::before {
+            content: "";
+            flex-shrink: 0;
+            width: 0.2813rem;
+            height: 0.2813rem;
+            border-radius: 50%;
+            background-color: rgba(25, 25, 25, 0.64);
+          }
+        }
       }
     }
     &__list-card {
@@ -93,8 +114,8 @@
         border-color: transparent;
         .industries__icon {
           img {
-            filter: brightness(0) saturate(100%) invert(34%) sepia(99%)
-              saturate(656%) hue-rotate(337deg) brightness(108%) contrast(99%);
+            filter: brightness(0) saturate(100%) invert(34%) sepia(99%) saturate(656%) hue-rotate(337deg)
+              brightness(108%) contrast(99%);
           }
         }
       }
@@ -141,8 +162,11 @@
         .title3 {
           display: none;
         }
-        .text-def {
+        .text-def, p, ul {
           margin-bottom: 2rem;
+          &:last-child {
+            margin-bottom: 0 !important;
+          }
         }
         &.is-transition {
           transform: translateY(0);

@@ -6,6 +6,10 @@ body {
 	line-height: 1.75;
 }
 
+body {
+	padding-top: 5.063rem;
+}
+
 .overhide {
 	overflow: hidden;
 }
@@ -37,6 +41,9 @@ body {
 	}
 	.container {
 		padding: 0 1.5em;
+	}
+	body {
+		padding-top: 4.5rem;
 	}
 }
 

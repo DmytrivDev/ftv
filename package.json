@@ -23,7 +23,7 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "accordion-js": "^3.3.4",
-    "axios": "^1.6.8",
+    "axios": "^1.7.0",
     "copy-text-to-clipboard": "^3.2.0",
     "hamburgers": "^1.2.1",
     "i": "^0.3.7",
@@ -32,7 +32,7 @@
     "sass": "^1.72.0",
     "scroll-to-element": "^2.0.3",
     "slide-element": "^2.3.1",
-    "validator": "^13.11.0",
+    "validator": "^13.6.0",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
   }
