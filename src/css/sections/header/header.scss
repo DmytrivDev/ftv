@@ -6,6 +6,7 @@
   top: 0;
   transform: translateY(0);
   transition: .3s;
+  z-index: 20;
   &.fixed {
     transform: translateY(-100%);
   }

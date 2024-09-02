@@ -111,6 +111,10 @@
   }
 }
 
+input, textarea {
+  font-family: var(--ff);
+}
+
 @media screen and (max-width: 960px) {
   .quote {
     padding: 2.5rem 0 5rem 0;
